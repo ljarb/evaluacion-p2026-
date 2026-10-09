@@ -23,3 +23,137 @@ img {
 body {
   font-size: 1.6rem;
 }
+header{
+  background-color: #000000;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 1rem;
+  background-color: #ffffff;
+}
+
+.logo a {
+  color: #1a1a1a;
+  text-decoration: none;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 1rem;
+}
+.nav-links li a {
+  text-decoration: none;
+  color: #555555;
+  margin: 1.4rem 2.8rem;
+}
+.titulo h1{
+  color:#ffffff;
+  font-size: 4rem;
+}
+.titulo span{
+  color:  #c0392b;
+  font-size: 4rem;
+}
+.titulo p{
+  color: #888888;
+  font-size: 1.6rem;
+  margin: 2.8rem 0rem;
+}
+.titulo{
+  margin: 2rem
+}
+.boton {
+  background-color: #c0392b;
+  border-radius: 0.5rem;
+  padding: 1rem 2rem;
+}
+.boton a{
+  color:#ffffff;
+  text-decoration: none;
+}
+.main{
+  background-color: #ffffff;
+  padding: 2.6rem;
+}
+.menu h2{
+  color: #1a1a1a;
+  margin: 2.6rem 2.8rem;
+}
+.contenedor{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 15rem;
+}
+.contenedor img{
+  width: 20rem;
+}
+.contenedor h3{
+  color: #1a1a1a;
+  font-size: 1.8rem;
+}
+.contenedor p{
+  color:  #555555;
+  font-size: 1.4rem;
+}
+
+.borde{
+  border-radius: 0.5rem;
+  border: 1px solid #ddd;
+  padding: 1rem;
+
+}
+.borde span{
+  color: #c0392b;
+  font-size: 1.6rem;  
+}
+/* sobre nosotros inicio */
+.sobre-nosotros{
+  background-color: #ffffff;
+  padding: 4.8rem;
+}
+.cont{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 1rem;
+  
+}
+.izquierda{
+  width: 45%;
+  padding: 2rem;
+}
+.izquierda p{
+  color: #555555;
+  font-size: 1.6rem;
+}
+.derecha{
+  width: 45%;
+  padding: 2rem;
+  border: solid 1px #000000;
+  border-radius: 0.5rem;
+  display: flex;
+  align-items: center;
+  justify-content: padding;
+}
+.descrip{
+  color: #555555;
+  font-size: 1.6rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 0rem 6rem;
+}
+.descrip span{
+  color:#1a1a1a;
+
+}
+.descrip small{
+  color: #555555;
+  font-size: 1.3rem;
+}
