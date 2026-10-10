@@ -23,3 +23,153 @@ img {
 body {
   font-size: 1.6rem;
 }
+.mas-pedidos {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.info-pedidos {
+  width: 30%;
+}
+.info-pedidos p {
+  color: #555555;
+  font-size: 1.6rem;
+}
+.mas-pedidos ul {
+  width: 65%;
+}
+.mas-pedidos ul {
+  list-style: none;
+  padding: 0; 
+  margin: 0; 
+}
+.mas-pedidos li {
+  display: flex; 
+  align-items: center; 
+  gap: 1.2rem; 
+  padding: 1.2rem 0; 
+  border-bottom: 0.1rem solid #e0ddd5; 
+}
+.mas-pedidos li img {
+  width: 6rem;
+  height: 6rem;
+  object-fit: cover;
+  border-radius: 0.8rem;
+}
+.mas-pedidos li span:last-child {
+  margin-left: auto;
+  color: #c0392b;
+  font-size: 1.6rem;
+  font-weight: bold;
+}
+.mas-pedidos li {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+  padding: 1.2rem 0;
+  border-bottom: 0.1rem solid #e0ddd5;
+}
+.contacto {
+  background-color: #f2f0eb;
+  padding: 4.8rem 3.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+
+.info-contacto {
+  width: 40%;
+}
+
+.info-contacto p,
+.info-contacto li {
+  color: #555555;
+  font-size: 1.6rem;
+}
+
+.info-contacto ul {
+  list-style: none;
+  padding: 0;
+}
+
+.form-contacto {
+  width: 50%;
+  background-color: #ffffff;
+  border: 0.1rem solid #e0ddd5;
+  padding: 2.4rem;
+  border-radius: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.6rem;
+}
+
+.form-contacto label {
+  color: #555555;
+  font-size: 1.4rem;
+}
+
+.form-contacto input,
+.form-contacto textarea {
+  border: 0.1rem solid #e0ddd5;
+  padding: 1rem;
+  border-radius: 0.6rem;
+  font-size: 1.6rem;
+}
+
+.form-contacto button {
+  background-color: #c0392b;
+  color: #ffffff;
+  padding: 1.2rem;
+  border: none;
+  border-radius: 0.6rem;
+}
+.footer {
+  background-color: #111111;
+  padding: 3.6rem 3.2rem 2rem;
+}
+
+.footer-contenido {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-marca {
+  width: 40%;
+}
+
+.footer h3,
+.footer h4 {
+  color: #ffffff;
+}
+
+.footer h3 {
+  font-size: 1.8rem;
+}
+
+.footer h4 {
+  font-size: 1.6rem;
+}
+
+.footer p,
+.footer ul {
+  color: #888888;
+  font-size: 1.6rem;
+}
+
+.footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-copyright {
+  border-top: 0.1rem solid #222222;
+  margin-top: 1.6rem;
+  padding-top: 1.6rem;
+  text-align: center;
+}
+
+.footer-copyright p {
+  font-size: 1.3rem;
+}
